@@ -45,15 +45,15 @@ form {
   line-height: 40px;
 }
 .temperature {
-  font-size: 38px;
+  font-size: 100px;
   font-weight: 800;
   color: rgb(178, 65, 193);
-  padding-top: 20px;
+  padding-top: 5%;
 }
 .unit {
   font-weight: 500;
   position: relative;
-  top: -10px;
+  top: -40px;
   padding-top: 10px;
 }
 
@@ -62,8 +62,8 @@ form {
 }
 
 .mainIcon {
-  width: 150px;
-  height: 150px;
+  width: 130px;
+  height: 130px;
   position: relative;
   top: -20px;
   left: 0;
@@ -71,22 +71,19 @@ form {
 }
 
 .description {
+  font-size: 15px;
   position: relative;
-  top: -10px;
-  font-size: 20px;
+  top: -20px;
 }
 
 @media (max-width: 750px) {
-  .column-1 li {
+  .column-3 li {
     display: inline;
     margin-right: 5%;
+    font-size: small;
   }
-  .column-2 img {
+  .column-1 img {
     width: 50%;
     height: 50%;
-  }
-  .column-3 {
-    top: -40px;
-    font-size: small;
   }
 }
