@@ -4,7 +4,6 @@ import "./Weather.css";
 
 export default function Weather() {
   let [city, setCity] = useState(null);
-  let [loaded, setloaded] = useState(false);
   let [weatherData, setWeatherData] = useState({});
 
   function displayForecast(response) {
